@@ -1,0 +1,61 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+\usepackage{color}
+
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{bending}
+\usetikzlibrary{patterns}
+
+\usepackage{gensymb}
+
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+\pgfplotsset{select coords between index/.style 2 args={
+		x filter/.code={
+			\ifnum\coordindex<#1\def\pgfmathresult{}\fi
+			\ifnum\coordindex>#2\def\pgfmathresult{}\fi
+		}
+}}
+
+\begin{document}
+	\begin{tikzpicture}[
+	%scale=0.4,
+	]	
+	
+	\begin{axis}[
+	axis on top=true,
+	%yshift=-4cm,
+	scale=0.65,
+	axis x line*=bottom ,  axis y line*=left,
+	xtick=\empty,
+	%ytick=\empty,
+	extra x ticks = {0, 15000, 20000},
+	%extra y tick labels = {$d$},
+	ytick align = outside,
+	xtick align = outside,
+	xlabel = iteration,
+	ylabel = $\beta_2$,
+	ylabel style={rotate=-90},
+	%extra x ticks = {0.0,1.67},
+	%extra x tick labels = {$x_0$,$x_{5}$},
+	xlabel near ticks,
+	ymin=-20, ymax=20,
+	xmin=0, xmax=20000]
+	
+	\addplot[draw=black!20!white,fill=black!20!white, domain=0:15000,samples=300] {25} \closedcycle;
+	\addplot[draw=black!20!white,fill=black!20!white, domain=0:15000,samples=300] {-25} \closedcycle;
+		
+	\addplot+[red,mark=,select coords between index={1}{20000}] table [col sep=tab, x="count", y="b2a"] {traceb2.dat};
+	
+	\addplot+[blue,mark=,select coords between index={1}{20000}] table [col sep=tab, x="count", y="b2b"] {traceb2.dat};
+	
+	\end{axis}
+	
+	
+	
+	\end{tikzpicture}  
+\end{document}

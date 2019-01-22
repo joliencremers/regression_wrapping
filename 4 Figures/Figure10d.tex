@@ -1,0 +1,60 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+\usepackage{color}
+
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{bending}
+\usetikzlibrary{patterns}
+
+\usepackage{gensymb}
+
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+\pgfplotsset{select coords between index/.style 2 args={
+		x filter/.code={
+			\ifnum\coordindex<#1\def\pgfmathresult{}\fi
+			\ifnum\coordindex>#2\def\pgfmathresult{}\fi
+		}
+}}
+
+\begin{document}
+	\begin{tikzpicture}[
+	%scale=0.4,
+	]	
+	
+	\begin{axis}[
+	axis on top=true,
+	%yshift=-4cm,
+	scale=0.8,
+	axis x line*=bottom ,  axis y line*=left,
+	%xtick=\empty,
+	%ytick=\empty,
+	%extra x ticks = {0, 3000, 7000},
+	%extra y tick labels = {$d$},
+	ytick align = outside,
+	xtick align = outside,
+	xlabel = lag,
+	ylabel = autocorrelation($\beta_2$),
+	%ylabel style={rotate=-90},
+	%extra x ticks = {0.0,1.67},
+	%extra x tick labels = {$x_0$,$x_{5}$},
+	xlabel near ticks,
+	%ymin=-0.1, ymax=0.5,
+	xmin=0, xmax=500]
+	
+		
+	\addplot+[red,mark=,select coords between index={0}{499}] table [col sep=tab, x="lag", y="b2"] {autocor_germanyWC.dat};
+	
+	\addplot+[blue,mark=,select coords between index={500}{999}] table [col sep=tab, x="lag", y="b2"] {autocor_germanyWC.dat};
+	
+	
+	\end{axis}
+	
+	
+	
+	\end{tikzpicture}  
+\end{document}

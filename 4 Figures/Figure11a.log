@@ -1,0 +1,910 @@
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6630 64-bit)  (format=lualatex 2018.6.18)  18 JUN 2018 16:31
+ restricted system commands enabled.
+**Figure11a.tex
+(./Figure11a.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using cache: C:/Users/Jolien/AppData/Local/MiKTeX/2.9/luatex-cache/gen
+eric)
+luaotfload | conf : Root cache directory is C:/Users/Jolien/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/luatex/l
+uaotfload/fontloader-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is C:/Users/Jolien/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.880 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/standalone/standa
+lone.cls"
+Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stand
+alone
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/shellesc.st
+y"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluat
+ex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.
+sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex
+.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.s
+ty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/xkeyval/xkeyval
+.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/xkeyval/xkvutil
+s.tex"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/xkeyval/keyval.
+tex"))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count80
+\c@sapage=\count81
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/standalone/standa
+lone.cfg"
+File: standalone.cfg 2018/03/26 v1.3a Default configuration file for 'standalone
+' class
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Jolien/AppData/Local/
+MiKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc(load luc: C:/Users/Jo
+lien/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman10-regular.l
+uc))
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/luatex85/luatex
+85.sty"
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftex
+cmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwar
+err.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmd
+s.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks16
+)
+\sa@box=\box26
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/frontendlayer
+/tikz.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/basiclayer/pg
+f.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/utilities/pgf
+rcs.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gfutil-common.tex"
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen103
+\pgfutil@tempdimb=\dimen104
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gfutil-common-lists.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gfutil-latex.def"
+\pgfutil@abb=\box27
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/basiclayer/pg
+fcore.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/luat
+ex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/systemlayer/p
+gfsys.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/systemlayer
+/pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gfkeys.code.tex"
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count90
+\c@pgf@countb=\count91
+\c@pgf@countc=\count92
+\c@pgf@countd=\count93
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/systemlayer
+/pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/systemlayer
+/pgfsys-luatex.def"
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/systemlayer
+/pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/systemlayer
+/pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count94
+\pgfsyssoftpath@bigbuffer@items=\count95
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/systemlayer
+/pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+h.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hcalc.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hutil.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hparser.code.tex"
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count96
+\pgfmath@box=\box28
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.basic.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.trigonometric.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.random.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.comparison.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.base.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.round.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.misc.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfunctions.integerarithmetics.code.tex")))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+hfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count97
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box29
+\pgf@hbox=\box30
+\pgf@layerbox@main=\box31
+\pgf@picture@serial@count=\count98
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen134
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen138
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count99
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box32
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/
+pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/modules/pgf
+moduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box33
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/modules/pgf
+moduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/compatibility
+/pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/compatibility
+/pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/utilities/pgf
+for.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/utilities/pgf
+keys.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gfkeys.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgf/math/pgfmath.
+sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+h.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/utilities/p
+gffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmat
+h.code.tex")
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/p
+gflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count100
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box34
+\tikz@figbox@bg=\box35
+\tikz@tempbox=\box36
+\tikz@tempbox@bg=\box37
+\tikztreelevel=\count101
+\tikznumberofchildren=\count102
+\tikznumberofcurrentchild=\count103
+\tikz@fig@count=\count104
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/modules/pgf
+modulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count105
+\pgfmatrixcurrentcolumn=\count106
+\pgf@matrix@numberofcolumns=\count107
+)
+\tikz@expandcount=\count108
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/p
+gflibraryarrows.meta.code.tex"
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen151
+\pgfarrowlength=\dimen152
+\pgfarrowwidth=\dimen153
+\pgfarrowlinewidth=\dimen154
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryshapes.code.tex"
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/s
+hapes/pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryshapes.misc.code.tex"
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/s
+hapes/pgflibraryshapes.misc.code.tex"
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/s
+hapes/pgflibraryshapes.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryshapes.arrows.code.tex"
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/s
+hapes/pgflibraryshapes.arrows.code.tex"
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryshapes.callouts.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/s
+hapes/pgflibraryshapes.callouts.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/s
+hapes/pgflibraryshapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box38
+\pgfnodeparttwobox=\box39
+\pgfnodepartthreebox=\box40
+\pgfnodepartfourbox=\box41
+\pgfnodeparttwentybox=\box42
+\pgfnodepartnineteenbox=\box43
+\pgfnodeparteighteenbox=\box44
+\pgfnodepartseventeenbox=\box45
+\pgfnodepartsixteenbox=\box46
+\pgfnodepartfifteenbox=\box47
+\pgfnodepartfourteenbox=\box48
+\pgfnodepartthirteenbox=\box49
+\pgfnodeparttwelvebox=\box50
+\pgfnodepartelevenbox=\box51
+\pgfnodeparttenbox=\box52
+\pgfnodepartninebox=\box53
+\pgfnodeparteightbox=\box54
+\pgfnodepartsevenbox=\box55
+\pgfnodepartsixbox=\box56
+\pgfnodepartfivebox=\box57
+)))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarybending.code.tex"
+File: tikzlibrarybending.code.tex 2013/09/17 v3.0.1a (rcs-revision 1.2)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/modules/pgf
+modulebending.code.tex"
+File: pgfmodulebending.code.tex 2013/09/30 v3.0.1a (rcs-revision 1.18)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/modules/pgf
+modulenonlineartransformations.code.tex"
+File: pgfmodulenonlineartransformations.code.tex 2013/10/09 v3.0.1a (rcs-revisio
+n 1.4)
+\pgftransformnonlinearflatness=\dimen155
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/p
+gflibrarycurvilinear.code.tex"
+File: pgflibrarycurvilinear.code.tex 2015/05/14 v3.0.1a (rcs-revision 1.4)
+\pgf@curvilinear@time@a=\dimen156
+\pgf@curvilinear@length@a=\dimen157
+\pgf@curvilinear@length@b=\dimen158
+\pgf@curvilinear@length@c=\dimen159
+\pgf@curvilinear@length@d=\dimen160
+)
+\pgf@arrows@the@rigidity=\dimen161
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarypatterns.code.tex"
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/p
+gflibrarypatterns.code.tex"
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/was/gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgfplots/pgfplots
+.sty"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+ts.revision.tex")
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+ts.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+tscore.code.tex"
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.2
+\pgfplots@luabackend@table=\catcodetable5
+\t@pgfplots@toka=\toks29
+\t@pgfplots@tokb=\toks30
+\t@pgfplots@tokc=\toks31
+\pgfplots@tmpa=\dimen162
+\c@pgfplots@coordindex=\count109
+\c@pgfplots@scanlineindex=\count110
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/sys/pg
+fplotssysgeneric.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/libs/p
+gfplotslibrary.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/oldpgf
+compatib/pgfplotsoldpgfsupp_loader.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/p
+gflibraryfpu.code.tex")
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/oldpgf
+compatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/oldpgf
+compatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count111
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/l
+uamath/pgflibraryluamath.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/oldpgf
+compatib/pgfplotsoldpgfsupp_pgflibraryluamath.code.tex")
+Package pgfplots info on input line 273: luamath library shipped with pgf 3.0.1a
+ is outdated; using a substitute shipped with pgfplots
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/oldpgf
+compatib/pgfplotsoldpgfsupp_leq.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/p
+gfplotsutil.code.tex"
+Package pgfplots info on input line 82: Found new luatex: initializing lua comma
+nds instead of write18 (shell-escape)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/listst
+ructure/pgfplotsliststructure.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/listst
+ructure/pgfplotsliststructureext.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/listst
+ructure/pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count112
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/listst
+ructure/pgfplotsmatrix.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/numtab
+le/pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count113
+\t@pgfplotstable@a=\toks32
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/listst
+ructure/pgfplotsdeque.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/p
+gfplotsbinary.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/p
+gfplotsbinary.data.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/p
+gfplotsutil.verb.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/libs/p
+gflibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count114
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/sys/pg
+flibrarypgfplots.surfshading.pgfsys-luatex.def")))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/p
+gfplotscolormap.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/p
+gfplotscolor.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+tsstackedplots.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+tsplothandlers.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+tsmeshplothandler.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+tsmeshplotimage.code.tex")))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+ts.scaling.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+tscoordprocessing.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+ts.errorbars.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+ts.markers.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+tsticks.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplo
+ts.paths.code.tex")
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarydecorations.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/modules/pgf
+moduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen163
+\pgfdecoratedremainingdistance=\dimen164
+\pgfdecoratedinputsegmentcompleteddistance=\dimen165
+\pgfdecoratedinputsegmentremainingdistance=\dimen166
+\pgf@decorate@distancetomove=\dimen167
+\pgf@decorate@repeatstate=\count115
+\pgfdecorationsegmentamplitude=\dimen168
+\pgfdecorationsegmentlength=\dimen169
+)
+\tikz@lib@dec@box=\box58
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/d
+ecorations/pgflibrarydecorations.pathmorphing.code.tex"))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex"
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/d
+ecorations/pgflibrarydecorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count116
+\pgfplots@xmin@reg=\dimen170
+\pgfplots@xmax@reg=\dimen171
+\pgfplots@ymin@reg=\dimen172
+\pgfplots@ymax@reg=\dimen173
+\pgfplots@zmin@reg=\dimen174
+\pgfplots@zmax@reg=\dimen175
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/p
+gflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.s
+ty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen176
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen177
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count117
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count118
+\leftroot@=\count119
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count120
+\DOTSCASE@=\count121
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count122
+\c@MaxMatrixCols=\count123
+\dotsspace@=\muskip10
+\c@parentequation=\count124
+\dspbrk@lvl=\count125
+\tag@help=\toks34
+\row@=\count126
+\column@=\count127
+\maxfields@=\count128
+\andhelp@=\toks35
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks36
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+No file Figure11a.aux.
+
+\openout1 = Figure11a.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+ABD: EveryShipout initializing macros
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.m
+kii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen185
+\scratchbox=\box61
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen186
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks39
+)
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvdefi
+nekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvsetk
+eys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/etexcm
+ds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Info: Redefining \celsius on input line 24.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 24.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 24.
+Package gensymb Info: Using \Omega for \ohm on input line 24.
+
+Package gensymb Warning: Not defining \micro.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
+ck labels; missing features). Consider writing \pgfplotsset{compat=1.16} into yo
+ur preamble.
+ on input line 24.
+
+PGFPlots: reading {traceb2.dat}
+NOTE: coordinate (1,0) has been dropped because of a coordinate filter. (see als
+o unbounded coords=jump). 
+PGFPlots: reading {traceb2.dat}
+NOTE: coordinate (1,3.141593) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+[1
+
+{C:/Users/Jolien/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(./Figure11a.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 26001 strings out of 494447
+ 476869,8504848 words of node,token memory allocated
+ 289321 words of node memory still in use:
+   83 hlist, 2 vlist, 2 rule, 3 disc, 18 math, 198 glue, 1 kern, 38 glyph, 40982
+ attribute, 48 glue_spec, 40982 attribute_list, 1 write, 40805 pdf_literal, 18 p
+df_colorstack nodes
+   avail lists: 1:2,2:25,3:40807,4:23,5:22,6:1,7:265,8:7,9:86,11:3
+ 29197 multiletter control sequences out of 65536+200000
+ 27 fonts using 1468735 bytes
+ 62i,10n,103p,724b,1860s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/users/jolien/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmro
+man10-regular.otf><C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jolien/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jolien/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jolien/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Figure11a.pdf (1 page, 356294 bytes).
+
+PDF statistics: 32 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -1,0 +1,89 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+\usepackage{color}
+
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{bending}
+\usetikzlibrary{patterns}
+
+\usepackage{gensymb}
+
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+\DeclareMathOperator{\J}{J}
+
+\pgfplotsset{select coords between index/.style 2 args={
+		x filter/.code={
+			\ifnum\coordindex<#1\def\pgfmathresult{}\fi
+			\ifnum\coordindex>#2\def\pgfmathresult{}\fi
+		}
+}}
+
+\begin{document}
+\begin{tikzpicture}[
+	%scale=0.4,
+	declare function={
+		j(\x) =  exp(-\x*\x/50);
+		j2(\x) =  exp(-\x*\x/50)/12;	
+	}
+	]	
+	
+	\begin{axis}[
+	axis on top=true,
+	%yshift=-4cm,
+	scale=0.65,
+	axis x line*=middle , hide y axis,
+	xtick=\empty,
+	ytick=\empty,
+	%extra y ticks = {0.6},
+	%extra y tick labels = {$d$},
+	ytick align = outside,
+	xtick align = outside,
+	xlabel = $x$,
+	%extra x ticks = {0.0,1.67},
+	%extra x tick labels = {$x_0$,$x_{5}$},
+	xlabel near ticks,
+	ymin=0, ymax=1.2,
+	xmin=-15, xmax=15]
+	
+	\addplot[domain=-15:15,samples=300]{j(x)};
+
+	\addplot[black, mark=*,only marks,mark size=1pt,select coords between index={1}{500}] table [col sep=tab, x="x", y="d"] {sample.dat};
+
+	\end{axis}
+	
+	\begin{axis}[
+	axis on top=true,
+	yshift=-4cm,
+	scale=0.65,
+	axis x line*=middle , hide y axis,
+	xtick=\empty,
+	ytick=\empty,
+	%extra y ticks = {0.6},
+	%extra y tick labels = {$d$},
+	ytick align = outside,
+	xtick align = outside,
+	xlabel = $x$,
+	%extra x ticks = {0.0,1.67},
+	%extra x tick labels = {$x_0$,$x_{5}$},
+	xlabel near ticks,
+	%ymin=0, ymax=1.5,
+	xmin=-15, xmax=15]
+	
+
+	
+	\addplot[black, mark=*,only marks,mark size =1pt,select coords between index={1}{500}] table [col sep=tab, x="x", y="d"] {samplex.dat};
+	
+	\addplot[black, fill=gray, hist={data=x,density}] file {samplex500.dat};
+	
+	%\addplot[dashed,domain=-15:15,samples=300]{j2(x)};
+	
+	\end{axis}
+	
+	
+	\end{tikzpicture}  
+\end{document}

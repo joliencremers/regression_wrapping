@@ -1,0 +1,63 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+\usepackage{color}
+
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{bending}
+\usetikzlibrary{patterns}
+
+\usepackage{gensymb}
+
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+
+\begin{document}
+\begin{tikzpicture}[
+	%scale=0.4,
+	]	
+	
+	%WN sds
+	\begin{axis}[
+	axis on top=true,
+	%xshift= 6cm,
+	scale=1,
+%	width=15cm,
+	axis x line*=middle , axis y line*=left,
+	xtick=\empty,
+	ytick=\empty,
+	extra y ticks = {0.02, 0.05, 0.07, 0.1, 0.14},
+	extra y tick labels = {0.02, 0.05,0.07, 0.10, 0.14},
+	ytick align = outside,
+	xtick align = outside,
+	xlabel = {cor($x_1, x_2$)},
+	ylabel = sd($\beta_1$),
+	extra x ticks = {-0.9, -0.5, -0.1, 0.0, 0.1, 0.5,0.9},
+	extra x tick labels = {.9,.5, .1, 0, .1, .5,.9},
+	xlabel near ticks,
+	%ymin=0, ymax=2.0,
+	xmin=-1, xmax=1,
+	legend style ={at={(1,0.2)}, 
+		anchor=north west, draw=black, 
+		fill=white}]
+	
+
+	\addplot[mark=*, color=gray, dashed]    coordinates {(-0.9,0.138)(-0.5, 0.074)(-0.1, 0.069)(0.0,0.075)(0.1,0.070)(0.5,0.075)(0.9,0.138)} node[pos=0.98] (rho) {};
+	%\node [above] at (rho) {$\rho=0.9$}; %rho=0.9
+	\addlegendentry{WN};
+	\addplot[mark=x, color=black]   coordinates {(-0.9,0.050)(-0.5, 0.030)(-0.1, 0.025)(0.0,0.025)(0.1,0.025)(0.5,0.027)(0.9,0.050)};  
+	\addlegendentry{WC};
+	
+	
+	
+	\end{axis}
+	
+	\node[left] at (0.35, -0.4) {$-$};
+	\node[left] at (3.1, -0.4) {$-$};
+	\node[left] at (1.75, -0.4) {$-$};
+		
+	\end{tikzpicture}  
+\end{document}

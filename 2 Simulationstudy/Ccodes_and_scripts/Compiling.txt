@@ -1,0 +1,21 @@
+To get regression based on WC:
+`$g++ -lm -g --std=c++11 -Wall -O3 -o Regression_WC Regression_generic.cpp`
+
+
+To get regression based on WN add `-DWN`:
+`$g++ -lm -g --std=c++11 -Wall -O3 -DWN -o Regression_WN Regression_generic.cpp`
+
+
+To get the analysis program:
+`$g++ -lm -g --std=c++11 -Wall -O3 -o Analysis Analysis_generic.cpp`
+
+
+Tested software versions:
+* environment: cygwin 2.6.0 (32 bits) on Windows 10
+* gcc: g++ 5.4.0
+* 
+
+How to compile c++ on windows:
+https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/cygwin/part2/
+
+

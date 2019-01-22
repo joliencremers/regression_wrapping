@@ -1,0 +1,29 @@
+This is the output of CLM v2.0
+Copyright by Inge Jansen
+Thu Nov 15 10:40:30 2018
+
+A simulation was performed on a dataset with 1 samples,
+each sample consisting of 80 observations.
+
+The simulation output can be found in: raw_output_7000_1_Maps_1_80_0.0_0.0_0.0_0.0.dat.
+
+The dataset contained observations on 3 variables:
+a circular outcome variable y, and predictorsx1 (dichotomous), x2 (continuous).
+The data were simulated with parameters b0=0.0, b1=0.0, b2=0.0 and rho=0.0
+
+Descriptive statistics of the input data:
+                     mean             sd
+         y       0.366155       0.485523
+        x1       0.500000       0.503155
+        x2      12.700000       3.501898
+
+The simulation was performed using 2 chains and 7000 iterations per sample (excluding burnin).
+Simulation results:
+                      mean           mode             sd          lower          upper             CP
+         b0       0.283664                      0.362052       6.083201       0.821001       1.000000
+         b1       0.284511                      0.937092       6.081082       0.820695       1.000000
+         b2       0.966998                      1.829138      -0.007462       6.238411       1.000000
+        rho                      0.000000                     -0.024796       6.189765       1.000000
+
+
+Autocorrelations can be found in autocor_7000_1_0_0.0_0.0_0.0_0.0.dat

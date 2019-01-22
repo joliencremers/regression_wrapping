@@ -1,0 +1,43 @@
+#change directory:
+
+cd c://Users/Jolien/surfdrive/Mastertheses/Inge_writingdocs/CircularDataArchive-master/3dApplicationtoWarrendata
+
+#check contents of directory
+
+dir
+
+#Info on analysis:
+#This and all other files generated below can be analysed using the following procedure. 
+#Ccodes and info on compiling are available in the folder:../2 Simulation study/Ccodes_and_scripts.
+
+###Not averaged###
+
+#First, use the regression code:
+./Regression_WN.exe 1 5 MapsP_1_80_0.0_0.0_0.0_0.0.dat
+./Regression_WN.exe 1 5 MapsS_1_80_0.0_0.0_0.0_0.0.dat
+
+./Regression_WC.exe 1 5 MapsP_1_80_0.0_0.0_0.0_0.0.dat
+./Regression_WC.exe 1 5 MapsS_1_80_0.0_0.0_0.0_0.0.dat
+
+#Then, use the Analysis code on the resulting output file:
+./Analysis.exe 1 raw_output_7000_1_MapsP_1_80_0.0_0.0_0.0_0.0.dat
+./Analysis.exe 1 output_foranalysis_4000_1_MapsP_1_80_0.0_0.0_0.0_0.0.dat
+
+./Analysis.exe 1 raw_output_7000_1_MapsS_1_80_0.0_0.0_0.0_0.0.dat
+./Analysis.exe 1 output_foranalysis_4000_1_MapsS_1_80_0.0_0.0_0.0_0.0.dat
+
+###Averaged over measurements###
+
+#First, use the regression code:
+./Regression_WN.exe 1 5 MapsPM_1_20_0.0_0.0_0.0_0.0.dat
+./Regression_WN.exe 1 5 MapsSM_1_20_0.0_0.0_0.0_0.0.dat
+
+./Regression_WC.exe 1 5 MapsPM_1_20_0.0_0.0_0.0_0.0.dat
+./Regression_WC.exe 1 5 MapsSM_1_20_0.0_0.0_0.0_0.0.dat
+
+#Then, use the Analysis code on the resulting output file:
+./Analysis.exe 1 raw_output_7000_1_MapsPM_1_20_0.0_0.0_0.0_0.0.dat
+./Analysis.exe 1 output_foranalysis_4000_1_MapsPM_1_20_0.0_0.0_0.0_0.0.dat
+
+./Analysis.exe 1 raw_output_7000_1_MapsSM_1_20_0.0_0.0_0.0_0.0.dat
+./Analysis.exe 1 output_foranalysis_4000_1_MapsSM_1_20_0.0_0.0_0.0_0.0.dat
